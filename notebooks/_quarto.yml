@@ -1,16 +1,16 @@
 project:
   type: website
 
-output-dir: _site
-
 website:
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: example.ipynb
-        text: Example Notebook
+
+  sidebar:
+    style: "docked"
+    search: true
 
 format:
   html:
@@ -18,5 +18,10 @@ format:
     css: styles.css
     toc: true
 
-
-
+# listing:
+#   contents: "*.ipynb"
+#   sort: "date desc"
+#   type: default
+#   categories: true
+#   sort-ui: false
+#   filter-ui: false

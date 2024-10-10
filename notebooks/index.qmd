@@ -1,6 +1,15 @@
 ---
-title: "notebooks"
+title: "My Notebook Collection"
+listing:
+  contents: "*.ipynb"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
 ---
+
+Welcome to my collection of notebooks. Below you'll find a list of all available notebooks in this project:
 
 This is a test Quarto website.
 
