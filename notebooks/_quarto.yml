@@ -4,12 +4,13 @@ project:
 output-dir: _site
 
 website:
-  title: "notebooks"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: example.ipynb
+        text: Example Notebook
 
 format:
   html:
