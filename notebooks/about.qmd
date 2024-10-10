@@ -1,5 +1,41 @@
 ---
-title: "About"
+title: "About This Repository"
+format: html
 ---
 
-About this site
+# About This Repository
+
+Welcome to the **Quarto Notebook Publish Demo** repository! This repository serves as a demonstration of how to integrate Jupyter notebooks with Quarto for rendering and publishing.
+
+## Purpose
+
+The primary goal of this repository is to showcase the capabilities of Quarto in converting Jupyter notebooks into beautifully formatted HTML documents. It provides an example of how to include code, outputs, and markdown content while using Quarto's powerful features.
+
+## Features
+
+- **Jupyter Notebook Integration**: Easily convert existing Jupyter notebooks into Quarto format.
+- **Customizable Output**: Specify front matter to control document settings such as titles, authors, and output formats.
+- **Code Control**: Options to include or exclude code and outputs, allowing for clean presentations.
+- **Interactive Visualisations**: Examples of creatoing and display plots using libraries like Matplotlib and Seaborn.
+- **GitHub Actions**: Automated rendering and publishing of notebooks using GitHub Actions.
+
+## Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/DataBooth/quarto-nb-publish-demo.git
+   cd quarto-nb-publish-demo
+   ```
+
+2. **Install Quarto**: Make sure you have Quarto installed on your system. You can find installation instructions on the [Quarto website](https://quarto.org/docs/get-started/). On macOS this is simplyy:
+   ```bash
+   brew install --cask quarto
+   ```
+
+
+3. **Render Notebooks**: Use the following command to render the notebooks:
+   ```bash
+   quarto render
+   ```
+
+4. **View Published Site**: After rendering, view the output in the `_site` directory or publish it using GitHub Pages.

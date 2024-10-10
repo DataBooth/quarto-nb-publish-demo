@@ -1,0 +1,31 @@
+name: Publish Quarto Notebooks
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if different
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: 'latest'
+
+    - name: Render Quarto project
+      run: |
+        cd notebooks
+        quarto render
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./notebooks/_site  # Adjust this if your output directory is different
+        publish_branch: gh-pages  # Branch to publish to
