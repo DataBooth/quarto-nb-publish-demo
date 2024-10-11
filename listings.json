@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/example.html",
+      "/example_links.html",
       "/example2.html"
     ]
   }

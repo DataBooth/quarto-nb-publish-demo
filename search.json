@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Notebook Collection",
+    "objectID": "example_links.html",
+    "href": "example_links.html",
+    "title": "Example Notebook with Links to local files",
     "section": "",
-    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nYour Name\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About This Repository",
-    "section": "",
-    "text": "Welcome to the Quarto Notebook Publish Demo repository! This repository serves as a demonstration of how to integrate Jupyter notebooks with Quarto for rendering and publishing.\n\n\nThe primary goal of this repository is to showcase the capabilities of Quarto in converting Jupyter notebooks into beautifully formatted HTML documents. It provides an example of how to include code, outputs, and markdown content while using Quarto’s powerful features.\n\n\n\n\nJupyter Notebook Integration: Easily convert existing Jupyter notebooks into Quarto format.\nCustomizable Output: Specify front matter to control document settings such as titles, authors, and output formats.\nCode Control: Options to include or exclude code and outputs, allowing for clean presentations.\nInteractive Visualisations: Examples of creatoing and display plots using libraries like Matplotlib and Seaborn.\nGitHub Actions: Automated rendering and publishing of notebooks using GitHub Actions.\n\n\n\n\n\nClone the Repository:\ngit clone https://github.com/DataBooth/quarto-nb-publish-demo.git\ncd quarto-nb-publish-demo\nInstall Quarto: Make sure you have Quarto installed on your system. You can find installation instructions on the Quarto website. On macOS this is simplyy:\nbrew install --cask quarto\nRender Notebooks: Use the following command to render the notebooks:\nquarto render\nView Published Site: After rendering, view the output in the _site directory or publish it using GitHub Pages."
-  },
-  {
-    "objectID": "about.html#purpose",
-    "href": "about.html#purpose",
-    "title": "About This Repository",
-    "section": "",
-    "text": "The primary goal of this repository is to showcase the capabilities of Quarto in converting Jupyter notebooks into beautifully formatted HTML documents. It provides an example of how to include code, outputs, and markdown content while using Quarto’s powerful features."
-  },
-  {
-    "objectID": "about.html#features",
-    "href": "about.html#features",
-    "title": "About This Repository",
-    "section": "",
-    "text": "Jupyter Notebook Integration: Easily convert existing Jupyter notebooks into Quarto format.\nCustomizable Output: Specify front matter to control document settings such as titles, authors, and output formats.\nCode Control: Options to include or exclude code and outputs, allowing for clean presentations.\nInteractive Visualisations: Examples of creatoing and display plots using libraries like Matplotlib and Seaborn.\nGitHub Actions: Automated rendering and publishing of notebooks using GitHub Actions."
-  },
-  {
-    "objectID": "about.html#getting-started",
-    "href": "about.html#getting-started",
-    "title": "About This Repository",
-    "section": "",
-    "text": "Clone the Repository:\ngit clone https://github.com/DataBooth/quarto-nb-publish-demo.git\ncd quarto-nb-publish-demo\nInstall Quarto: Make sure you have Quarto installed on your system. You can find installation instructions on the Quarto website. On macOS this is simplyy:\nbrew install --cask quarto\nRender Notebooks: Use the following command to render the notebooks:\nquarto render\nView Published Site: After rendering, view the output in the _site directory or publish it using GitHub Pages."
-  },
-  {
-    "objectID": "example2.html",
-    "href": "example2.html",
-    "title": "Second Example Notebook with Quarto Front Matter",
-    "section": "",
-    "text": "This is another example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.plot(random_numbers)\nplt.show()"
-  },
-  {
-    "objectID": "example2.html#introduction",
-    "href": "example2.html#introduction",
-    "title": "Second Example Notebook with Quarto Front Matter",
-    "section": "",
-    "text": "This is another example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.plot(random_numbers)\nplt.show()"
+    "text": "Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.\n\n\nJupyter Link:\n\n\nexample.csv\n\n\n\nQuarto Link:\n\n\nexample.csv\n\n\n\nDebug Information:\nproject_root: /Users/mjboothaus/quarto-nb-publish-demo\nfull_file_path: /Users/mjboothaus/quarto-nb-publish-demo/data/example.csv\nrelative_to_root: data/example.csv\ncurrent dir (cwd): /Users/mjboothaus/quarto-nb-publish-demo/notebooks\nfile_path_input: /Users/mjboothaus/quarto-nb-publish-demo/data/example.csv\n\n\n\n\n(&lt;IPython.core.display.Markdown object&gt;,\n '[example.csv](data/example.csv)',\n {'project_root': '/Users/mjboothaus/quarto-nb-publish-demo',\n  'full_file_path': '/Users/mjboothaus/quarto-nb-publish-demo/data/example.csv',\n  'relative_to_root': 'data/example.csv',\n  'current dir (cwd)': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks',\n  'file_path_input': '/Users/mjboothaus/quarto-nb-publish-demo/data/example.csv'})"
   },
   {
     "objectID": "example.html",
@@ -68,5 +26,54 @@
     "title": "Example Notebook with Quarto Front Matter",
     "section": "Conclusion",
     "text": "Conclusion\nThis example demonstrates how to include Quarto front matter in a Jupyter notebook. When rendered with Quarto, this notebook will use the specified format options."
+  },
+  {
+    "objectID": "example2.html",
+    "href": "example2.html",
+    "title": "Second Example Notebook with Quarto Front Matter",
+    "section": "",
+    "text": "This is another example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.plot(random_numbers)\nplt.show()"
+  },
+  {
+    "objectID": "example2.html#introduction",
+    "href": "example2.html#introduction",
+    "title": "Second Example Notebook with Quarto Front Matter",
+    "section": "",
+    "text": "This is another example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.plot(random_numbers)\nplt.show()"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to the Quarto Notebook Publish Demo repository! This repository serves as a demonstration of how to integrate Jupyter notebooks with Quarto for rendering and publishing.\n\n\nThe primary goal of this repository is to showcase the capabilities of Quarto in converting Jupyter notebooks into beautifully formatted HTML documents. It provides an example of how to include code, outputs, and markdown content while using Quarto’s powerful features.\n\n\n\n\nJupyter Notebook Integration: Easily convert existing Jupyter notebooks into Quarto format.\nCustomizable Output: Specify front matter to control document settings such as titles, authors, and output formats.\nCode Control: Options to include or exclude code and outputs, allowing for clean presentations.\nInteractive Visualisations: Examples of creatoing and display plots using libraries like Matplotlib and Seaborn.\nGitHub Actions: Automated rendering and publishing of notebooks using GitHub Actions.\n\n\n\n\n\nClone the Repository:\ngit clone https://github.com/DataBooth/quarto-nb-publish-demo.git\ncd quarto-nb-publish-demo\nInstall Quarto: Make sure you have Quarto installed on your system. You can find installation instructions on the Quarto website. On macOS this is simplyy:\nbrew install --cask quarto\nRender Notebooks: Use the following command to render the notebooks:\nquarto render\nView Published Site: After rendering, view the output in the _site directory or publish it using GitHub Pages."
+  },
+  {
+    "objectID": "about.html#purpose",
+    "href": "about.html#purpose",
+    "title": "About",
+    "section": "",
+    "text": "The primary goal of this repository is to showcase the capabilities of Quarto in converting Jupyter notebooks into beautifully formatted HTML documents. It provides an example of how to include code, outputs, and markdown content while using Quarto’s powerful features."
+  },
+  {
+    "objectID": "about.html#features",
+    "href": "about.html#features",
+    "title": "About",
+    "section": "",
+    "text": "Jupyter Notebook Integration: Easily convert existing Jupyter notebooks into Quarto format.\nCustomizable Output: Specify front matter to control document settings such as titles, authors, and output formats.\nCode Control: Options to include or exclude code and outputs, allowing for clean presentations.\nInteractive Visualisations: Examples of creatoing and display plots using libraries like Matplotlib and Seaborn.\nGitHub Actions: Automated rendering and publishing of notebooks using GitHub Actions."
+  },
+  {
+    "objectID": "about.html#getting-started",
+    "href": "about.html#getting-started",
+    "title": "About",
+    "section": "",
+    "text": "Clone the Repository:\ngit clone https://github.com/DataBooth/quarto-nb-publish-demo.git\ncd quarto-nb-publish-demo\nInstall Quarto: Make sure you have Quarto installed on your system. You can find installation instructions on the Quarto website. On macOS this is simplyy:\nbrew install --cask quarto\nRender Notebooks: Use the following command to render the notebooks:\nquarto render\nView Published Site: After rendering, view the output in the _site directory or publish it using GitHub Pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Notebook Collection",
+    "section": "",
+    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Links to local files\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
   }
 ]
