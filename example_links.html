@@ -171,12 +171,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="example-of-linking-to-a-local-file---both-from-within-the-actual-notebook-and-also-once-published-rendered-by-quarto." class="level3">
 <h3 class="anchored" data-anchor-id="example-of-linking-to-a-local-file---both-from-within-the-actual-notebook-and-also-once-published-rendered-by-quarto.">Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.</h3>
-<div id="cell-4" class="cell" data-execution_count="4">
+<div id="cell-4" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-stdout">
 <pre><code>Markdown Link:</code></pre>
 </div>
 <div class="cell-output cell-output-display cell-output-markdown">
-<p><a href="data/example.csv">example.csv</a></p>
+<p><a href="data/example.csv">data/example.csv</a></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
@@ -185,6 +185,15 @@ current_dir: /Users/mjboothaus/quarto-nb-publish-demo/notebooks
 full_path: /Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv
 relative_path: data/example.csv
 file_path_input: data/example.csv</code></pre>
+</div>
+</div>
+<div id="cell-5" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="4">
+<pre><code>('[data/example.csv](data/example.csv)',
+ {'current_dir': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks',
+  'full_path': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv',
+  'relative_path': 'data/example.csv',
+  'file_path_input': 'data/example.csv'})</code></pre>
 </div>
 </div>
 
@@ -284,7 +293,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/DataBooth\.github\.io\/quarto-nb-publish-demo\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

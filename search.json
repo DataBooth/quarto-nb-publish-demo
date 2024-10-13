@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "example_links.html",
-    "href": "example_links.html",
-    "title": "Example Notebook with Links to local files",
-    "section": "",
-    "text": "Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.\n\n\nMarkdown Link:\n\n\nexample.csv\n\n\n\nDebug Information:\ncurrent_dir: /Users/mjboothaus/quarto-nb-publish-demo/notebooks\nfull_path: /Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv\nrelative_path: data/example.csv\nfile_path_input: data/example.csv"
-  },
-  {
-    "objectID": "example.html",
-    "href": "example.html",
-    "title": "Example Notebook with Quarto Front Matter",
-    "section": "",
-    "text": "This is an example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n\n\nHide code but show output:\n\n#| echo: false\n\nShow code but hide output:\n\n#| output: false\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\nHide both code and output:\n\n#| include: false\n\nShow code with line numbers:\n\n#| echo: true\n#| code-line-numbers: true\n\n\nCode\ndef fibonacci(n):\n    if n &lt;= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))\n\n\n55\n\n\n\nFold code (collapsible):\n\n#| code-fold: true\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\nInclude warnings in output:\n\n#| warning: true\n\n\nCode\nimport warnings\nwarnings.warn(\"This is a warning message\")\n\n\n/var/folders/pf/662q3gzd6413np78gpd4p9hr0000gn/T/ipykernel_56966/2745731313.py:4: UserWarning: This is a warning message\n  warnings.warn(\"This is a warning message\")\n\n\n\nSet figure dimensions:\n\n#| fig-width: 8\n#| fig-height: 6\n\n\nCode\nplt.plot([1, 2, 3, 4])\nplt.title(\"Custom Size Plot\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Create a simple plot\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['x'], df['y'], marker='o')\nplt.title('Sample Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\ndf\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n1\n\n\n1\n2\n4\n\n\n2\n3\n9\n\n\n3\n4\n16\n\n\n4\n5\n25\n\n\n5\n6\n36\n\n\n6\n7\n49\n\n\n7\n8\n64\n\n\n8\n9\n81\n\n\n9\n10\n100"
-  },
-  {
-    "objectID": "example.html#introduction",
-    "href": "example.html#introduction",
-    "title": "Example Notebook with Quarto Front Matter",
-    "section": "",
-    "text": "This is an example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n\n\nHide code but show output:\n\n#| echo: false\n\nShow code but hide output:\n\n#| output: false\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\nHide both code and output:\n\n#| include: false\n\nShow code with line numbers:\n\n#| echo: true\n#| code-line-numbers: true\n\n\nCode\ndef fibonacci(n):\n    if n &lt;= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))\n\n\n55\n\n\n\nFold code (collapsible):\n\n#| code-fold: true\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\nInclude warnings in output:\n\n#| warning: true\n\n\nCode\nimport warnings\nwarnings.warn(\"This is a warning message\")\n\n\n/var/folders/pf/662q3gzd6413np78gpd4p9hr0000gn/T/ipykernel_56966/2745731313.py:4: UserWarning: This is a warning message\n  warnings.warn(\"This is a warning message\")\n\n\n\nSet figure dimensions:\n\n#| fig-width: 8\n#| fig-height: 6\n\n\nCode\nplt.plot([1, 2, 3, 4])\nplt.title(\"Custom Size Plot\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Create a simple plot\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['x'], df['y'], marker='o')\nplt.title('Sample Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\ndf\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n1\n\n\n1\n2\n4\n\n\n2\n3\n9\n\n\n3\n4\n16\n\n\n4\n5\n25\n\n\n5\n6\n36\n\n\n6\n7\n49\n\n\n7\n8\n64\n\n\n8\n9\n81\n\n\n9\n10\n100"
-  },
-  {
-    "objectID": "example.html#conclusion",
-    "href": "example.html#conclusion",
-    "title": "Example Notebook with Quarto Front Matter",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis example demonstrates how to include Quarto front matter in a Jupyter notebook. When rendered with Quarto, this notebook will use the specified format options."
-  },
-  {
     "objectID": "example2.html",
     "href": "example2.html",
     "title": "Second Example Notebook with Quarto Front Matter",
@@ -40,6 +12,41 @@
     "title": "Second Example Notebook with Quarto Front Matter",
     "section": "",
     "text": "This is another example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.plot(random_numbers)\nplt.show()"
+  },
+  {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "Example Notebook with Quarto Front Matter",
+    "section": "",
+    "text": "This is an example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n\n\nHide code but show output:\n\n#| echo: false\n\nShow code but hide output:\n\n#| output: false\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\nHide both code and output:\n\n#| include: false\n\nShow code with line numbers:\n\n#| echo: true\n#| code-line-numbers: true\n\n\nCode\ndef fibonacci(n):\n    if n &lt;= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))\n\n\n55\n\n\n\nFold code (collapsible):\n\n#| code-fold: true\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\nInclude warnings in output:\n\n#| warning: true\n\n\nCode\nimport warnings\nwarnings.warn(\"This is a warning message\")\n\n\n/var/folders/pf/662q3gzd6413np78gpd4p9hr0000gn/T/ipykernel_35906/1498169789.py:2: UserWarning: This is a warning message\n  warnings.warn(\"This is a warning message\")\n\n\n\nSet figure dimensions:\n\n#| fig-width: 8\n#| fig-height: 6\n\n\nCode\nplt.plot([1, 2, 3, 4])\nplt.title(\"Custom Size Plot\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Create a simple plot\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['x'], df['y'], marker='o')\nplt.title('Sample Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\ndf\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n1\n\n\n1\n2\n4\n\n\n2\n3\n9\n\n\n3\n4\n16\n\n\n4\n5\n25\n\n\n5\n6\n36\n\n\n6\n7\n49\n\n\n7\n8\n64\n\n\n8\n9\n81\n\n\n9\n10\n100"
+  },
+  {
+    "objectID": "example.html#introduction",
+    "href": "example.html#introduction",
+    "title": "Example Notebook with Quarto Front Matter",
+    "section": "",
+    "text": "This is an example Jupyter notebook that includes Quarto front matter. The front matter is included in a raw cell at the beginning of the notebook.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n\n\nHide code but show output:\n\n#| echo: false\n\nShow code but hide output:\n\n#| output: false\n\n\nCode\nimport numpy as np\nrandom_numbers = np.random.rand(5)\nprint(random_numbers)\n\n\n\nHide both code and output:\n\n#| include: false\n\nShow code with line numbers:\n\n#| echo: true\n#| code-line-numbers: true\n\n\nCode\ndef fibonacci(n):\n    if n &lt;= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))\n\n\n55\n\n\n\nFold code (collapsible):\n\n#| code-fold: true\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\nInclude warnings in output:\n\n#| warning: true\n\n\nCode\nimport warnings\nwarnings.warn(\"This is a warning message\")\n\n\n/var/folders/pf/662q3gzd6413np78gpd4p9hr0000gn/T/ipykernel_35906/1498169789.py:2: UserWarning: This is a warning message\n  warnings.warn(\"This is a warning message\")\n\n\n\nSet figure dimensions:\n\n#| fig-width: 8\n#| fig-height: 6\n\n\nCode\nplt.plot([1, 2, 3, 4])\nplt.title(\"Custom Size Plot\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\n# Create a simple plot\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['x'], df['y'], marker='o')\nplt.title('Sample Plot')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nCode\ndf\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n1\n\n\n1\n2\n4\n\n\n2\n3\n9\n\n\n3\n4\n16\n\n\n4\n5\n25\n\n\n5\n6\n36\n\n\n6\n7\n49\n\n\n7\n8\n64\n\n\n8\n9\n81\n\n\n9\n10\n100"
+  },
+  {
+    "objectID": "example.html#conclusion",
+    "href": "example.html#conclusion",
+    "title": "Example Notebook with Quarto Front Matter",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis example demonstrates how to include Quarto front matter in a Jupyter notebook. When rendered with Quarto, this notebook will use the specified format options."
+  },
+  {
+    "objectID": "example_links.html",
+    "href": "example_links.html",
+    "title": "Example Notebook with Links to local files",
+    "section": "",
+    "text": "Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.\n\n\nMarkdown Link:\n\n\ndata/example.csv\n\n\n\nDebug Information:\ncurrent_dir: /Users/mjboothaus/quarto-nb-publish-demo/notebooks\nfull_path: /Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv\nrelative_path: data/example.csv\nfile_path_input: data/example.csv\n\n\n\n\n('[data/example.csv](data/example.csv)',\n {'current_dir': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks',\n  'full_path': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv',\n  'relative_path': 'data/example.csv',\n  'file_path_input': 'data/example.csv'})"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Notebook Collection",
+    "section": "",
+    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Links to local files\n\n\nData is in subdirectory data\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -68,12 +75,5 @@
     "title": "About",
     "section": "",
     "text": "Clone the Repository:\ngit clone https://github.com/DataBooth/quarto-nb-publish-demo.git\ncd quarto-nb-publish-demo\nInstall Quarto: Make sure you have Quarto installed on your system. You can find installation instructions on the Quarto website. On macOS this is simplyy:\nbrew install --cask quarto\nRender Notebooks: Use the following command to render the notebooks:\nquarto render\nView Published Site: After rendering, view the output in the _site directory or publish it using GitHub Pages."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Notebook Collection",
-    "section": "",
-    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Links to local files\n\n\nData is in subdirectory data\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
   }
 ]
