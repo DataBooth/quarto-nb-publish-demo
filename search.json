@@ -4,7 +4,7 @@
     "href": "example_links.html",
     "title": "Example Notebook with Links to local files",
     "section": "",
-    "text": "Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.\n\n\nJupyter Link:\n\n\nexample.csv\n\n\n\nQuarto Link:\n\n\nexample.csv\n\n\n\nDebug Information:\nproject_root: /Users/mjboothaus/quarto-nb-publish-demo\nfull_file_path: /Users/mjboothaus/quarto-nb-publish-demo/data/example.csv\nrelative_to_root: data/example.csv\ncurrent dir (cwd): /Users/mjboothaus/quarto-nb-publish-demo/notebooks\nfile_path_input: /Users/mjboothaus/quarto-nb-publish-demo/data/example.csv\n\n\n\n\n(&lt;IPython.core.display.Markdown object&gt;,\n '[example.csv](data/example.csv)',\n {'project_root': '/Users/mjboothaus/quarto-nb-publish-demo',\n  'full_file_path': '/Users/mjboothaus/quarto-nb-publish-demo/data/example.csv',\n  'relative_to_root': 'data/example.csv',\n  'current dir (cwd)': '/Users/mjboothaus/quarto-nb-publish-demo/notebooks',\n  'file_path_input': '/Users/mjboothaus/quarto-nb-publish-demo/data/example.csv'})"
+    "text": "Example of linking to a local file - both from within the actual notebook and also once published (rendered) by Quarto.\n\n\nMarkdown Link:\n\n\nexample.csv\n\n\n\nDebug Information:\ncurrent_dir: /Users/mjboothaus/quarto-nb-publish-demo/notebooks\nfull_path: /Users/mjboothaus/quarto-nb-publish-demo/notebooks/data/example.csv\nrelative_path: data/example.csv\nfile_path_input: data/example.csv"
   },
   {
     "objectID": "example.html",
@@ -74,6 +74,6 @@
     "href": "index.html",
     "title": "My Notebook Collection",
     "section": "",
-    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Links to local files\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my collection of notebooks. Below you’ll find a list of all available notebooks in this project:\nThis is a test Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nExample Notebook with Links to local files\n\n\nData is in subdirectory data\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nMichael Booth\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Example Notebook with Quarto Front Matter\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nMichael Booth\n\n\n\n\n\n\nNo matching items"
   }
 ]
