@@ -1,7 +1,7 @@
 project:
   type: website
-  resources:
-    - "../data/*.csv"
+  # resources:
+  #   - "data/*.csv"
 
 website:
   navbar:
@@ -19,11 +19,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-# listing:
-#   contents: "*.ipynb"
-#   sort: "date desc"
-#   type: default
-#   categories: true
-#   sort-ui: false
-#   filter-ui: false
